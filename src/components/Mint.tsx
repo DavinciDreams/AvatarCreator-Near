@@ -52,7 +52,7 @@ export default function MintCharacter({ scene, templateInfo, model, mintPopup, s
     <div style={{
       position: "absolute",
       top: "20px",
-      right: "154px",
+      right: "150px",
       zIndex: 10
     }}>
       <Button
