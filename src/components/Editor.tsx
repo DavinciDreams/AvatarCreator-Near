@@ -17,14 +17,14 @@ export default function Editor(props: any) {
   const selectorButtonActive = {
     color: "#666666",
     fontSize: "12px",
-    minWidth: "50px",
+    minWidth: "60px",
     cursor: "pointer",
   }
 
   const selectorButtonIcon = {
     display: "inline-block",
-    width: "40px",
-    height: "40px",
+    width: "80px",
+    height: "80px",
     padding: "2px",
   }
 
@@ -112,45 +112,42 @@ export default function Editor(props: any) {
           Head
         </div>
         <div
-       //   onClick={() => setCategory("accessories")}
-       //   style={
-       //     category && category === "accessories"
-       //       ? selectorButton
-       //       : selectorButtonActive
-       //   }>
-       //   <Avatar 
-       //     style={selectorButtonIcon} 
-       //     src={"public/ui/earringsgradient.png"} 
-        //  />
-        //  <br />Accessories
-        //</div>
-        // <div
-        //  onClick={() => setCategory("hair")}
-        //  style={
-        //    category && category === "hair"
-        //      ? selectorButton
-        //      : selectorButtonActive
-        //  }
-        //>
-        //  <Avatar style={selectorButtonIcon} src={"public/ui/hairgradient2.png"} />
-        //  <br />
-        //  Hair
-        //</div>
-        //<div 
-        //onClick={() => setCategory('eye')} 
-        //    style={ 
-        //      category && category === "eye" 
-        //                                                                                                                                                                                                          ? selectorButton : selectorButtonActive } >
-        //  <Avatar style={selectorButtonIcon}  src={'public/ui/eyegradient.png'}  />
-        //  <br />
-        //  Eye
-        //</div>
-        //<div
+          onClick={() => setCategory("accessories")}
+          style={
+            category && category === "accessories"
+              ? selectorButton
+              : selectorButtonActive
+          }
+        >
+          <Avatar style={selectorButtonIcon} src={"public/ui/earringsgradient.png"} />
+          <br />
+          Accessories
+        </div>
+        <div
+          onClick={() => setCategory("hair")}
+          style={
+            category && category === "hair"
+              ? selectorButton
+              : selectorButtonActive
+          }
+        >
+          <Avatar style={selectorButtonIcon} src={"public/ui/hairgradient2.png"} />
+          <br />
+          Hair
+        </div>
+        <div onClick={() => setCategory('eye')} style={ category && category === "eye" ? selectorButton : selectorButtonActive } >
+          <Avatar style={selectorButtonIcon}  src={'public/ui/eyegradient.png'}  />
+          <br />
+          Eye
+        </div>
+        <div
           onClick={() => setCategory("neck")}
           style={
             category && category === "neck"
               ? selectorButton
-              : selectorButtonActive } >
+              : selectorButtonActive
+          }
+        >
           <Avatar style={selectorButtonIcon} src={"public/ui/necklacegradient.png"} />
           <br />
           Neck
@@ -200,18 +197,18 @@ export default function Editor(props: any) {
           Legs
         </div>
         <div
-       //   onClick={() => setCategory("pants")}
-       //   style={
-       //     category && category === "pants"
-       //       ? selectorButton
-       //       : selectorButtonActive
-       //   }
-       // >
-       //   <Avatar style={selectorButtonIcon} src={"public/ui/pantsgradient.png"} />
-       //   <br />
-       //   Pants
-       // </div>
-      //<div
+          onClick={() => setCategory("pants")}
+          style={
+            category && category === "pants"
+              ? selectorButton
+              : selectorButtonActive
+          }
+        >
+          <Avatar style={selectorButtonIcon} src={"public/ui/pantsgradient.png"} />
+          <br />
+          Pants
+        </div>
+      <div
           onClick={() => setCategory("foot")}
           style={
             category && category === "foot"

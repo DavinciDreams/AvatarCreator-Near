@@ -8,8 +8,8 @@ import { Box } from "@mui/system";
 import { OrbitControls } from "@react-three/drei/core/OrbitControls";
 import { PerspectiveCamera } from "@react-three/drei/core/PerspectiveCamera";
 import { Canvas } from "@react-three/fiber";
-import { sceneService } from "../services";
-import { TemplateModel } from "./Models";
+import { sceneService } from "../src/services";
+import { TemplateModel } from "../src/components/Models";
 import { id } from "ethers/lib/utils";
 
 const style = {

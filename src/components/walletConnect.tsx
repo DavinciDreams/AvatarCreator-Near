@@ -1,6 +1,6 @@
 //import useOnClickOutside from 'hooks/useOnClickoutside';
 import React, { useRef, useState } from 'react';
-import styled from 'styled-components';
+import styled from '@mui/styles';
 import { Avatar } from "@mui/material"
 import Divider from "@mui/material/Divider"
 import Stack from "@mui/material/Stack"
@@ -142,7 +142,7 @@ const Wallets = [
 	},
 ];
 
-function walletPopup() {
+function ConnectWallet() {
 	const [showModal, setShowModal] = React.useState(false);
 	const modalRef = useRef();
 	onclick(() => setShowModal);
@@ -188,4 +188,4 @@ function walletPopup() {
 	);
 }
 
-export default walletPopup;
+export default ConnectWallet;
